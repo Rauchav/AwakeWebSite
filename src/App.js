@@ -14,7 +14,6 @@ import IllustrationsPage from './pages/IllustrationsPage';
 import VideosPage from './pages/VideosPage';
 import UiUxPage from './pages/UiUxPage';
 import WebAppPage from './pages/WebAppPage';
-import CertificationsPage from './pages/CertificationsPage';
 import { Container } from 'reactstrap';
 import { Routes, Route } from 'react-router-dom';
 
@@ -36,7 +35,6 @@ function App () {
           <Route path='/videos' element={<VideosPage />} />
           <Route path='/uiux' element={<UiUxPage />} />
           <Route path='/webapp' element={<WebAppPage />} />
-          <Route path='/aboutme/certifications' element={<CertificationsPage />} />
         </Routes>
         <Container className='pushFooter'></Container>
       </Container>

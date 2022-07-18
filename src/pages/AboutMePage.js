@@ -1,4 +1,4 @@
-import { Container, Col, Button } from 'reactstrap';
+import { Container, Col } from 'reactstrap';
 import { useState, useEffect } from 'react';
 import { useSpring, animated } from 'react-spring';
 import AboutMeDisplay from '../features/AboutMe/AboutMeDisplay';
@@ -8,12 +8,14 @@ import TREducation from '../features/AboutMe/TREducation';
 import BrandsCarousel from '../features/AboutMe/BrandsCarousel';
 import DesignSoftwareCarousel from '../features/AboutMe/DesignSoftwareCarousel';
 import DevToolsCarrousel from '../features/AboutMe/DevToolsCarrousel';
+import Certifications from '../features/AboutMe/Certifications';
 
 const AboutMePage = () => {
     const [toggle1, setToggle1] = useState(false);
     const [toggle2, setToggle2] = useState(false);
     const [toggle3, setToggle3] = useState(false);
-    const [toggle4, setToggle4] = useState(false)
+    const [toggle4, setToggle4] = useState(false);
+    const [toggle5, setToggle5] = useState(false);
 
     const handleToggle1 = () => {
         setToggle1(!toggle1);
@@ -25,6 +27,10 @@ const AboutMePage = () => {
 
     const handleToggle3 = () => {
         setToggle3(!toggle3);
+    }
+
+    const handleToggle4 = () => {
+        setToggle4(!toggle4);
     }
 
     const animatedBlock1 = useSpring({
@@ -42,33 +48,43 @@ const AboutMePage = () => {
         config: { duration: 1000 }
     })
 
-    const animatedTitle1 = useSpring({
+    const animatedBlock4 = useSpring({
         opacity: toggle4 ? 1 : 0,
+        config: { duration: 1000 }
+    })
+
+    const animatedTitle1 = useSpring({
+        opacity: toggle5 ? 1 : 0,
         delay: 900,
         config: { duration: 300 }
     })
 
     const animatedTitle2 = useSpring({
-        opacity: toggle4 ? 1 : 0,
+        opacity: toggle5 ? 1 : 0,
         delay: 1000,
         config: { duration: 300 }
     })
 
     const animatedTitle3 = useSpring({
-        opacity: toggle4 ? 1 : 0,
+        opacity: toggle5 ? 1 : 0,
         delay: 1100,
         config: { duration: 300 }
     })
 
-    const animatedBlock4 = useSpring({
-        opacity: toggle4 ? 1 : 0,
-        delay: 1100,
+    const animatedTitle4 = useSpring({
+        opacity: toggle5 ? 1 : 0,
+        delay: 1200,
         config: { duration: 300 }
+    })
+
+    const animatedBlock5 = useSpring({
+        opacity: toggle5 ? 1 : 0,
+        config: { duration: 1000 }
     })
 
     useEffect(() => {
         window.scrollTo(0, 0);
-        setToggle4(true);
+        setToggle5(true);
     }, []);
 
     return(
@@ -110,18 +126,25 @@ const AboutMePage = () => {
                     </h6>
                 </Col>
             </animated.div>
-            <animated.div style={animatedBlock4}>
+            <animated.div style={animatedBlock4} className='animatedBlock'>
+                {toggle4 ? <Certifications /> : null}
+            </animated.div>
+            <animated.div style={animatedTitle4}>
+                <Col className='titleAboutMeCol'>
+                    <h6 className='titleAboutMe' style={toggle3 ? { borderBottom: 'solid' } : { borderTop: 'solid' }}>
+                        Certifications
+                        <i className={toggle4 ? 'fa fa-chevron-up' : 'fa fa-chevron-down'}
+                            onClick={handleToggle4} />
+                    </h6>
+                </Col>
+            </animated.div>
+            <animated.div style={animatedBlock5}>
                 <h6 className='subTitleAboutMeCol'>Some Brands I've worked for:</h6>
                 <BrandsCarousel />
                 <h6 className='subTitleAboutMeCol'>Digital Product Design tools I use:</h6>
                 <DesignSoftwareCarousel />
                 <h6 className='subTitleAboutMeCol'>Digital Product Development tools I use :</h6>
                 <DevToolsCarrousel />
-                <Col className='certificationsButtonCol'>
-                    <a href='/aboutme/certifications'>
-                        <Button active size="lg" className='certificationsButton'>DIGITAL CERTIFICATIONS</Button>
-                    </a>
-                </Col>
             </animated.div>
         </Container>
     )

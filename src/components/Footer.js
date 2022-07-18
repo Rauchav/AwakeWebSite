@@ -40,9 +40,9 @@ const Footer = () => {
                         <i className='fa fa-youtube fa-2x' />
                     </a>
                       <a
-                        href='https://www.instagram.com/awakewecreate/'
+                        href='https://www.linkedin.com/in/raulchvv/'
                     >
-                        <i className='fa fa-instagram fa-2x' />
+                        <i className='fa fa-linkedin fa-2x' />
                     </a>
                 </Col>
                 <Col sm='12' md='12' lg='4' className='text-center'>

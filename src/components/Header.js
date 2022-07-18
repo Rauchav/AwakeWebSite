@@ -17,19 +17,19 @@ const Header = () => {
             <Collapse isOpen={menuOpen} navbar>
             <Nav className='ms-auto navbar' navbar>
                 <NavItem>
-                    <NavLink className='Nav-link' to='/'>Home
+                    <NavLink className='Nav-link' to='/' onClick={() => setMenuOpen(!menuOpen)}>Home
                     </NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink className='Nav-link' to='/portafolio'>Portafolio
+                    <NavLink className='Nav-link' to='/portafolio' onClick={() => setMenuOpen(!menuOpen)}>Portafolio
                     </NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink className='Nav-link' to='/aboutme'>About Me
+                    <NavLink className='Nav-link' to='/aboutme' onClick={() => setMenuOpen(!menuOpen)}>About Me
                     </NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink className='Nav-link' to='/contactme'>Contact Me
+                    <NavLink className='Nav-link' to='/contactme' onClick={() => setMenuOpen(!menuOpen)}>Contact Me
                     </NavLink>
                 </NavItem>
             </Nav>
