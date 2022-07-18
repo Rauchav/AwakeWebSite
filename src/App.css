@@ -1,0 +1,252 @@
+body {
+  font-family: 'Coda', cursive;
+  color: white;
+  margin: 0;
+  background-image: url('./app/assets/Images/Space\ Background.svg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.align-button {
+  display: flex;
+  justify-content: center;
+}
+
+.menuButton {
+  background-color: transparent !important;
+  max-width: 250px;
+  padding-bottom: 50px;
+  border-radius: 20px;
+}
+
+.menuButton:hover {
+  color: #FFCE00;
+}
+
+.cardTitle {
+  text-align: center;
+  font-size: larger;
+}
+
+.App-Header {
+  height: 7rem;
+  font-family: 'Coda', cursive;
+}
+
+
+.Nav-link {
+  margin-right: 20px;
+  font-size: larger;
+  text-decoration: none;
+}
+
+.ms-auto, .navbar {
+  background-image: url('./app/assets/Images/Space\ Background.svg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.Body {
+  padding-top: 200px;
+  padding-bottom: 100px;
+  min-height: 100vh;
+  margin-bottom: -8rem;
+  color: white;
+  font-family: 'Coda', cursive;
+}
+
+.portafolioMenu {
+  margin-top: 30px;
+}
+
+.splashLeft {
+  text-align: center;
+  padding-top: 180px;
+  padding-bottom: 80px;
+}
+
+.splashRight {
+text-align: center;
+}
+
+.splashButton {
+  font-weight: bolder !important;
+  width: 200px;
+  background-color: transparent !important;
+  border: solid 2px !important;
+  border-radius: 5px !important;
+  color: white !important;
+}
+
+.splashButton:hover {
+  background-color: #FFCE00 !important;
+  color: black !important;
+}
+
+.astronaut {
+  padding-top: 30px;
+  width: 380px;
+}
+
+.profilePic {
+  width: 420px;
+  border-radius: 20px;
+}
+
+.aboutMeText {
+  text-align: center;
+}
+.pushFooter {
+  height: 12rem;
+}
+
+p, .briefIntroCol {
+  font-size: 22px;
+  text-align: justify;
+}
+
+.yellowTittle {
+  color: #FFCE00;
+}
+
+.profilePicCol {
+  padding-top: 50px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.briefIntroCol {
+  text-align: center;
+  min-width: 300px;
+  padding-top: 55px;
+}
+
+.text-center {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.form-control {
+  background-color: transparent !important;
+  color: rgba(255, 255, 255, 0.802) !important;
+}
+
+.form-control:focus {
+  border-color: #FFCE00 !important;
+}
+
+.contactForm {
+  margin-top: 30px;
+  font-size: larger;
+}
+
+.buttonSend {
+  margin-top: 30px;
+  font-weight: bolder !important;
+  width: 200px;
+  background-color: transparent !important;
+  border: solid 2px !important;
+  border-radius: 5px !important;
+  color: white !important;
+}
+
+.buttonSend:hover {
+  background-color: #FFCE00 !important;
+  color: black !important;
+}
+
+.site-footer {
+  height: 8rem;
+  color: white;
+  font-family: 'Coda', cursive;
+}
+
+.site-footer, Link {
+  font-size: medium;
+}
+
+.navbar-brand {
+  width: 130px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.page-enter {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+.page-enter-active {
+  opacity: 1;
+  transform: translateX(0%);
+  transition: 300ms ease-out;
+}
+
+.page-exit {
+  opacity: 1;
+}
+
+.page-exit-active {
+  opacity: 0;
+  transition: 300ms ease-in;
+}
+
+i {
+  color: white;
+  padding: 10px 10px 10px 10px;
+}
+
+i:hover {
+  color: #FFCE00;
+}
+
+a {
+  color: white !important;
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: #FFCE00 !important;
+}
+
+.sendEmailModal {
+  color: white;
+  text-align: center;
+  background-color: black;
+  border: solid;
+}
+
+.modalTitle {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.modalText {
+  padding-bottom: 50px;
+}
+
+
+.modalButton {
+  margin-top: 30px;
+    font-weight: bolder !important;
+    width: 200px !important;
+    height: 40px;
+    background-color: transparent !important;
+    border: solid 2px !important;
+    border-radius: 5px !important;
+    color: white !important;
+    margin-bottom: 50px;
+}
+
+.modalButton:hover {
+  background-color: #FFCE00 !important;
+  color: black !important;
+}
+
+p {
+  font-size: medium;
+  padding-top: 5px;
+  padding-bottom: none;
+}

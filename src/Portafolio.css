@@ -1,0 +1,94 @@
+.logoImg {
+    max-width: 420px;
+    border-radius: 20px;
+}
+
+.logoTextDisplayCol {
+    padding-bottom: 10%;
+}
+
+.logoDisplayRow {
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
+
+.advertisingImg {
+    max-width: 80vw;
+    border-radius: 20px;
+}
+
+@media only screen and (min-width: 992px) {
+    .advertisingImg {
+        max-width: 50vw;
+    }
+}
+
+.advertisingTextDisplayCol {
+    padding-top: 8%;
+}
+
+.advertisingDisplayRow {
+    text-align: center;
+}
+
+.illustrationImg {
+    max-width: 80vw;
+    border-radius: 20px;
+}
+
+@media only screen and (min-width: 992px) {
+    .illustrationImg {
+        max-width: 45vw;
+    }
+}
+
+.illustrationTextDisplayCol {
+    padding-top: 8%;
+}
+
+.illustrationDisplayRow {
+    text-align: center;
+}
+
+.videoTextDisplayCol {
+    padding-top: 8%;
+    padding-bottom: 8%;
+    text-align: center;
+}
+
+.videoDisplayCol{
+   display: flex;
+   justify-content: center;
+}
+
+.certificationsButtonCol {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.certificationsButton {
+    font-weight: bolder !important;
+    width: 300px;
+    background-color: transparent !important;
+    border: solid 2px !important;
+    border-radius: 5px !important;
+    color: white !important;
+}
+
+.certificationsButton:hover {
+    background-color: #FFCE00 !important;
+    color: black !important;
+}
+
+.certificateImg {
+    max-width: 80vw;
+}
+
+.certificationCol {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
