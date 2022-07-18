@@ -30,6 +30,11 @@ const SplashDisplay = () => {
 
     return(
         <Row>
+            <Col className='splashRight'>
+                <animated.div style={animatedAstronaut}>
+                    <img src={Astronaut} alt='astronaut' className='astronaut' />
+                </animated.div>
+            </Col>
             <Col className='splashLeft'>
                 <div>
                     <animated.div style={animatedText}>
@@ -44,11 +49,6 @@ const SplashDisplay = () => {
                         </a>
                     </animated.div>
                 </div>
-            </Col>
-            <Col className='splashRight'>
-                <animated.div style={animatedAstronaut}>
-                    <img src={Astronaut} alt='astronaut' className='astronaut'/>
-                </animated.div>
             </Col>
         </Row>
     )

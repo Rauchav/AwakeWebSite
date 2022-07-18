@@ -87,11 +87,11 @@ text-align: center;
 
 .astronaut {
   padding-top: 30px;
-  width: 380px;
+  width: 330px;
 }
 
 .profilePic {
-  width: 420px;
+  max-width: 300px;
   border-radius: 20px;
 }
 

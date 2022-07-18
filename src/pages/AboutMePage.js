@@ -79,11 +79,11 @@ const AboutMePage = () => {
             </animated.div>
             <animated.div style={animatedTitle1}>
                 <Col className='titleAboutMeCol'>
-                    <h5 className='titleAboutMe' style={toggle1 ? { borderBottom: 'solid' } : { borderTop: 'solid' }}>
+                    <h6 className='titleAboutMe' style={toggle1 ? { borderBottom: 'solid' } : { borderTop: 'solid' }}>
                         General education
                         <i className={toggle1 ? 'fa fa-chevron-up' : 'fa fa-chevron-down'}
                             onClick={handleToggle1} />
-                    </h5>
+                    </h6>
                 </Col>
             </animated.div>
             <animated.div style={animatedBlock2} className='animatedBlock'>
@@ -91,11 +91,11 @@ const AboutMePage = () => {
             </animated.div>
             <animated.div style={animatedTitle2}>
                 <Col className='titleAboutMeCol'>
-                    <h5 className='titleAboutMe' style={toggle2 ? { borderBottom: 'solid' } : { borderTop: 'solid' }}>
+                    <h6 className='titleAboutMe' style={toggle2 ? { borderBottom: 'solid' } : { borderTop: 'solid' }}>
                         Tech related education
                         <i className={toggle2 ? 'fa fa-chevron-up' : 'fa fa-chevron-down'}
                             onClick={handleToggle2} />
-                    </h5>
+                    </h6>
                 </Col>
             </animated.div>
             <animated.div style={animatedBlock3} className='animatedBlock'>
@@ -103,11 +103,11 @@ const AboutMePage = () => {
             </animated.div>
             <animated.div style={animatedTitle3}>
                 <Col className='titleAboutMeCol'>
-                    <h5 className='titleAboutMe' style={toggle3 ? { borderBottom: 'solid' } : { borderTop: 'solid' }}>
+                    <h6 className='titleAboutMe' style={toggle3 ? { borderBottom: 'solid' } : { borderTop: 'solid' }}>
                         Professional experience
                         <i className={toggle3 ? 'fa fa-chevron-up' : 'fa fa-chevron-down'}
                             onClick={handleToggle3} />
-                    </h5>
+                    </h6>
                 </Col>
             </animated.div>
             <animated.div style={animatedBlock4}>
