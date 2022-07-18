@@ -53,13 +53,13 @@ const BrandsCarousel = () => {
         <Container className='contSlideShow'>
             <ContSlideShow className='Carousel' ref={carousel}>
                 <Row className='CarouselRow'>
-                    <Col xs='4' className='CarouselCol'>
+                    <Col className='CarouselCol'>
                         <img src={BRANDLIST[0].image} alt={BRANDLIST[0].logo} className='brandImage' key={BRANDLIST[0].index.toString()} />
                     </Col>
-                    <Col xs='4' className='CarouselCol'>
+                    <Col className='CarouselCol'>
                         <img src={BRANDLIST[1].image} alt={BRANDLIST[1].logo} className='brandImage' key={BRANDLIST[1].index.toString()} />
                     </Col>
-                    <Col xs='4' className='CarouselCol'>
+                    <Col className='CarouselCol'>
                         <img src={BRANDLIST[2].image} alt={BRANDLIST[2].logo} className='brandImage' key={BRANDLIST[2].index.toString()} />
                     </Col>
                 </Row>

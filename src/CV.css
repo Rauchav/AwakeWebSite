@@ -42,37 +42,43 @@
 }
 
 .contSlideShow{
+    display: flex;
     margin-top: 50px;
     position: relative;
     z-index: 10;
     overflow: hidden;
-
 }
 
 .Carousel {
     display: flex;
-    column-gap: 41px;
-    padding-left: 35px;
-    padding-right: 5px;
-    width: 100%;
+    column-gap: 56px;
+    width: 90%;
     z-index: 20;
     pointer-events: all;
 }
 
 .CarouselRow { 
-    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    min-width: 100%;
 }
 
 .CarouselCol {
     display: flex;
     justify-content: center;
-    text-align: center;
+    min-width: 60px;
 }
 
 .brandImage {
-    min-width: 60px;
-    margin-left: 80px;
-    margin-right: 70px;
+    max-width: 160px;
+    min-width: 70px;
+    margin-left: 55px;
+}
+
+@media only screen and (max-width: 778px) {
+    .brandImage {
+        max-width: 70px;
+    }
 }
 
 .controllerColLeft {
@@ -91,19 +97,18 @@
 .fa-angle-left {
     color: white;
     text-align: left;
-    margin: none;
 }
 
 .controllersCont {
     display: flex;
     z-index: 20;
     top: 0;
-    margin-top: 5%;
+    margin-top: 4%;
+    margin-left: -12px;
     justify-content: space-between;
     pointer-events: none;
-    width: 97%;
+    width: 100%;
     position: absolute;
-    
 }
 .controllerButtonLeft {
     background-color: transparent;

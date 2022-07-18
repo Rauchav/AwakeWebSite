@@ -38,7 +38,7 @@ const AboutMePage = () => {
     })
 
     const animatedBlock3 = useSpring({
-        opacity: toggle3 ? 0 : 1,
+        opacity: toggle3 ? 1 : 0,
         config: { duration: 1000 }
     })
 
