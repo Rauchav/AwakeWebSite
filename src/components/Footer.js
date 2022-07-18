@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <Container className='site-footer'>
             <Row>
-                <Col sm='12' md='4' className='text-center'>
+                <Col sm='12' md='6' lg='4' className='text-center'>
                         <h5>Navigation Links:</h5>
                         <ul className='list-unstyled'>
                             <li>
@@ -22,7 +22,7 @@ const Footer = () => {
                             </li>
                         </ul>
                 </Col>
-                <Col sm='12' md='4' className='text-center'>
+                <Col sm='12' md='6' lg='4' className='text-center'>
                     <h5>Social Media Links:</h5>
                     <a
                         href='https://github.com/Rauchav'
@@ -45,7 +45,7 @@ const Footer = () => {
                         <i className='fa fa-instagram fa-2x' />
                     </a>
                 </Col>
-                <Col sm='12' md='4' className='text-center'>
+                <Col sm='12' md='12' lg='4' className='text-center'>
                     <a
                         href='tel:+12065551234'
                     >
