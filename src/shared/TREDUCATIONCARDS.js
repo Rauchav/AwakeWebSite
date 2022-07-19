@@ -15,8 +15,8 @@ export const TREDUCATIONCARDS = [
         image: domestika,
         certificate: 'Graphic Desig - UI/UX Design',
         software: 'Photoshop, Illustrator, Affter Effects, Adobe Xd, Procreate',
-        location: 'Mêjico DF - Méjico',
-        duration: 'from 2017 to 2019',
+        location: 'Méjico DF - Méjico',
+        duration: 'from 2018 to 2020',
     },
     {
         id: 1,
@@ -24,7 +24,7 @@ export const TREDUCATIONCARDS = [
         certificate: 'Mobile Apps visual development',
         software: 'Bubble, Adalo',
         location: 'Santa Mónica - EEUU',
-        duration: '2018'
+        duration: '2019'
     },
     {
         id: 2,
@@ -32,7 +32,7 @@ export const TREDUCATIONCARDS = [
         certificate: 'Mobile App visual development',
         location: 'Santa Diego - EEUU',
         software: 'Adalo',
-        duration: '2018'
+        duration: '2020'
     },
     {
         id: 3,
@@ -40,7 +40,7 @@ export const TREDUCATIONCARDS = [
         certificate: 'Mobile App visual development',
         software: 'Glide by Microsoft',
         location: 'Seattle - EEUU',
-        duration: '2018'
+        duration: '2020'
     },
     {
         id: 4,
@@ -48,7 +48,7 @@ export const TREDUCATIONCARDS = [
         certificate: 'Low Code Web development',
         software: 'Bubble',
         location: 'San Francisco - EEUU',
-        duration: '2018'
+        duration: '2021'
     },
     {
         id: 5,
@@ -56,7 +56,7 @@ export const TREDUCATIONCARDS = [
         certificate: 'Low Code Web App development',
         software: 'Bubble',
         location: 'Nueva York - EEUU',
-        duration: '2019'
+        duration: '2021'
     },
     {
         id: 6,
@@ -64,7 +64,7 @@ export const TREDUCATIONCARDS = [
         certificate: 'Responsive Web design',
         software: 'Bootstrap',
         location: 'San Francisco - EEUU',
-        duration: '2020'
+        duration: '2022'
     },
     {
         id: 7,
@@ -72,7 +72,7 @@ export const TREDUCATIONCARDS = [
         certificate: 'Full Stack Development',
         software: 'Html, Css, JavaScript, Bootstrap, React, React Native, Node.js, Git Hub',
         location: 'Seattle - EEUU',
-        duration: 'from 2020 to 2021'
+        duration: 'from 2021 to 2022'
     },
     {
         id: 8,
@@ -80,7 +80,7 @@ export const TREDUCATIONCARDS = [
         certificate: 'Growth Marketing and Analytics',
         software: 'Google Analytics',
         location: 'Buenos Aires - Argentina',
-        duration: 'from 2021 to 2022'
+        duration: '2022'
     },
     {
         id: 9,
@@ -88,7 +88,7 @@ export const TREDUCATIONCARDS = [
         certificate: 'Digital Product Managment',
         software: 'Figma, Sketch, Invision',
         location: 'Buenos Aires - Argentina',
-        duration: 'from 2021 to 2022'
+        duration: '2022'
     },
     {
         id: 10,
@@ -96,6 +96,6 @@ export const TREDUCATIONCARDS = [
         certificate: 'Digital Product Marketing',
         software: 'Goggle Ads',
         location: 'Buenos Aires - Argentina',
-        duration: 'from 2021 to 2022'
+        duration: '2022'
     },
 ]
