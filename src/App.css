@@ -6,6 +6,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  padding-top: 30px;
 }
 
 .align-button {
@@ -99,7 +100,7 @@ text-align: center;
   text-align: center;
 }
 .pushFooter {
-  height: 12rem;
+  height: 15rem;
 }
 
 p, .briefIntroCol {
@@ -161,10 +162,11 @@ p, .briefIntroCol {
   height: 8rem;
   color: white;
   font-family: 'Coda', cursive;
+  font-size: larger;
 }
 
-.site-footer, Link {
-  font-size: medium;
+ul, li {
+  padding-top: 10px;
 }
 
 .navbar-brand {
