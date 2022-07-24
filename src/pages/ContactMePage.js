@@ -66,7 +66,7 @@ const ContactForm = () => {
     return (
         <Container className='contactForm'>
             <animated.div style={animatedText}>
-                <h5>- Fill out your contact information and send me a message, I'll reach out to you as soon as possible.</h5><br />
+                <h5>Fill out your contact information and type a message, I'll reach out to you as soon as possible.</h5><br />
             </animated.div>
             <Formik
                 initialValues={{
@@ -135,7 +135,7 @@ const ContactForm = () => {
                                 <Label htmlFor='contactType'>
                                     How may I contact you?
                                 </Label>
-                                <Col xs='4'>
+                                <Col xs='5'>
                                     <Field name='contactType' as='select' className='form-control'>
                                         <option className='contactOption'>By Email</option>
                                         <option className='contactOption'>By Phone Call</option>

@@ -10,25 +10,25 @@ export const ILLUSTRATIONLIST = [
         index: 0,
         image: daydreamautomat,
         client: 'Daydream Automat',
-        description: 'Digital Illustration for a Indie musical project'
+        description: 'Digital illustration for an indie rock music project'
     },
     {
         index: 1,
         image: flava,
         client: 'Flava App',
-        description: 'Digital Illustration for a Gastronomic Virtual Community'
+        description: 'Digital illustration for a gastronomic virtual community'
     },
     {
         index: 2,
         image: passion,
         client: 'Passion',
-        description: 'Digital Illustration art piece'
+        description: 'Digital illustration art piece'
     },
     {
         index: 3,
         image: daydreamautomat1,
         client: 'Daydream Automat',
-        description: 'Digital Illustration for a Indie musical project'
+        description: 'Digital illustration for an indie rock music project'
     },
     {
         index: 4,
@@ -40,6 +40,6 @@ export const ILLUSTRATIONLIST = [
         index: 5,
         image: daydreamautomat2,
         client: 'Daydream Automat',
-        description: 'Digital Illustration for a Indie musical project'
+        description: 'Digital illustration for a indie rock music project'
     }    
 ]

@@ -10,13 +10,13 @@ export const ADVERTISINGLIST = [
         index: 0,
         image: flufflife1,
         client: 'Fluff Life',
-        description: 'Arvertising piece for a pets health care digital platform'
+        description: 'Arvertising art for a pets health care digital platform'
     },
     {
         index: 1,
         image: flava,
         client: 'Flava App',
-        description: 'Arvertising piece for a Gastronomic virtual community'
+        description: 'Arvertising art for a gastronomic virtual community'
     },
     {
         index: 2,
@@ -28,18 +28,18 @@ export const ADVERTISINGLIST = [
         index: 3,
         image: flufflife2,
         client: 'Fluff Life',
-        description: 'Arvertising piece for a pets health care digital platform'
+        description: 'Arvertising art for a pets health care digital platform'
     },
     {
         index: 4,
         image: awake,
         client: 'Awake',
-        description: 'Arvertising piece for a Creative Hub project'
+        description: 'Arvertising art for a creative hub project'
     },
     {
         index: 5,
         image: impacta,
-        client: 'Awake',
-        description: 'Arvertising piece for a Creative Hub project'
+        client: 'Impacta',
+        description: 'Arvertising piece for a advertising and marketing company'
     },
 ]

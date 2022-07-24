@@ -53,42 +53,42 @@ const MenuButtonsDisplay = () => {
 
     return (
         <Row>
-            <Col xs='12' md='6' lg='4' className='align-button'>
+            <Col xs='6' lg='4' className='align-button'>
                 <Link to={'/logos'}>
                     <animated.div style={animatedButton0}>
                         <MenuButton menubutton={MENUBUTTONS[0]} />
                     </animated.div>
                 </Link>
             </Col>
-            <Col xs='12' md='6' lg='4' className='align-button'>
+            <Col xs='6' lg='4' className='align-button'>
                 <Link to={'/advertising'}>
                     <animated.div style={animatedButton1}>
                         <MenuButton menubutton={MENUBUTTONS[1]} />
                     </animated.div>
                 </Link>
             </Col>
-            <Col xs='12' md='6' lg='4' className='align-button'>
+            <Col xs='6' lg='4' className='align-button'>
                 <Link to={'/illustrations'}>
                     <animated.div style={animatedButton2}>
                         <MenuButton menubutton={MENUBUTTONS[2]} />
                     </animated.div>
                 </Link>
             </Col>
-            <Col xs='12' md='6' lg='4' className='align-button'>
+            <Col xs='6' lg='4' className='align-button'>
                 <Link to={'/videos'}>
                     <animated.div style={animatedButton3}>
                         <MenuButton menubutton={MENUBUTTONS[3]} />
                     </animated.div>
                 </Link>
             </Col>
-            <Col xs='12' md='6' lg='4' className='align-button'>
+            <Col xs='6' lg='4' className='align-button'>
                 <Link to={'/uiux'}>
                     <animated.div style={animatedButton4}>
                         <MenuButton menubutton={MENUBUTTONS[4]} />
                     </animated.div>
                 </Link>
             </Col>
-            <Col xs='12' md='6' lg='4' className='align-button'>
+            <Col xs='6' lg='4' className='align-button'>
                 <Link to={'/webapp'}>
                     <animated.div style={animatedButton5}>
                         <MenuButton menubutton={MENUBUTTONS[5]} />

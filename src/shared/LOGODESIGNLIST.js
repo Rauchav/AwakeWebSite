@@ -29,21 +29,21 @@ export const LOGODESIGNLIST = [
         image: flava,
         name: 'Flava App logo design',
         client: 'Flava App',
-        description: 'Logo designed for a Gastronomic virtual community'
+        description: 'Logo designed for a gastronomic virtual community'
     },
     {
         index: 3,
         image: beller,
         name: 'Beller App logo design',
         client: 'The Best Seller App',
-        description: 'Logo designed for a Sales Force Mobile App'
+        description: 'Logo designed for a sales force mobile app'
     },
     {
         index: 4,
         image: madretierra,
         name: 'Madre Tierra logo design',
         client: 'The Best Seller App',
-        description: 'Logo designed for a Bueauty products brand'
+        description: 'Logo designed for a beauty products brand'
     },
     {
         index: 5,
@@ -64,13 +64,13 @@ export const LOGODESIGNLIST = [
         image: tib,
         name: 'Tib logo design',
         client: 'Together Is Better',
-        description: 'Logo designed for a Tech Startup'
+        description: 'Logo designed for a tech startup'
     },
     {
         index: 8,
         image: impacta,
         name: 'Impacta logo design',
         client: 'Impacta Srl',
-        description: 'Logo designed for an Advertising and Marketing company'
+        description: 'Logo designed for an advertising and marketing company'
     },
 ]

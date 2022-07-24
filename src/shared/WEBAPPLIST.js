@@ -9,31 +9,31 @@ export const WEBAPPLIST = [
     {
         index: 0,
         image: impacta,
-        project: 'Impacta SRL',
+        project: 'Impacta web site',
         description: 'Web site development for a marketing & advertising company'
     },
     {
         index: 1,
         image: flavaweb,
-        project: 'Flava The Flavor Lava',
-        description: 'Web site development for a Virtual Gastronomic community'
+        project: 'Flava web site',
+        description: 'Web site development for a virtual gastronomic community'
     },
     {
         index: 2,
         image: awake,
-        project: 'Awake',
-        description: 'Web site development for a profesional portafolio'
+        project: 'Awake web site',
+        description: 'Web site development for my professional portafolio & creative hub project'
     },
     {
         index: 3,
         image: beller,
-        project: 'The Best Seller App',
-        description: 'Mobile App development for a Sales Force Mobile App'
+        project: 'The Best Seller mobile app',
+        description: 'Mobile App development for a sales force mobile app'
     },
     {
         index: 4,
         image: flavaapp,
-        project: 'Flava The Flavor Lava App',
-        description: 'Mobile App development for a Virtual Gastonomic community'
+        project: 'Flava mobile app',
+        description: 'Mobile App development for a virtual gastonomic community'
     }
 ]
