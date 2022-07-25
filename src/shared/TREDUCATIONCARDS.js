@@ -13,89 +13,78 @@ export const TREDUCATIONCARDS = [
     {
         id: 0,
         image: domestika,
+        institution: 'Domestika',
         certificate: 'Graphic Desig - UI/UX Design',
-        software: 'Photoshop, Illustrator, Affter Effects, Adobe Xd, Procreate',
-        location: 'Méjico DF - Méjico',
-        duration: 'from 2018 to 2020',
+        software: 'Software: Photoshop, Illustrator, Affter Effects, Adobe Xd, Figma, Sketch, Procreate',
     },
     {
         id: 1,
         image: udemy,
+        institution: 'Udemy',
         certificate: 'Mobile Apps visual development',
-        software: 'Bubble, Adalo',
-        location: 'Santa Mónica - EEUU',
-        duration: '2019'
+        software: 'Software: Bubble, Adalo visual development platforms and Figma UI/UX design software',
     },
     {
         id: 2,
         image: adalo,
-        certificate: 'Mobile App visual development',
-        location: 'Santa Diego - EEUU',
-        software: 'Adalo',
-        duration: '2020'
+        institution: 'Adalo Academy',
+        certificate: 'Visual Web App development',
+        software: 'Software: Adalo visual development platform'
     },
     {
         id: 3,
         image: glide,
-        certificate: 'Mobile App visual development',
-        software: 'Glide by Microsoft',
-        location: 'Seattle - EEUU',
-        duration: '2020'
+        institution: 'Glide Acandemy',
+        certificate: 'Visual Web App development',
+        software: 'Software: Glide visual development platforms'
     },
     {
         id: 4,
         image: webflow,
-        certificate: 'Low Code Web development',
-        software: 'Bubble',
-        location: 'San Francisco - EEUU',
-        duration: '2021'
+        institution: 'Web Flow University',
+        certificate: 'Visual Web App development',
+        software: 'Software: Webflow visual development platforms'
     },
     {
         id: 5,
         image: bubble,
-        certificate: 'Low Code Web App development',
-        software: 'Bubble',
-        location: 'Nueva York - EEUU',
-        duration: '2021'
+        institution: 'Bubble Bootcamp',
+        certificate: 'Visual Web App development',
+        software: 'Software: Bubble Low Code Development'
     },
     {
         id: 6,
         image: bootstrap,
+        institution: 'Bootstrap Tutorials',
         certificate: 'Responsive Web design',
-        software: 'Bootstrap',
-        location: 'San Francisco - EEUU',
-        duration: '2022'
+        software: 'Software: Bootstrap responsive web design'
     },
     {
         id: 7,
         image: nucamp,
+        institution: 'Nucamp Bootcamp',
         certificate: 'Full Stack Development',
-        software: 'Html, Css, JavaScript, Bootstrap, React, React Native, Node.js, Git Hub',
-        location: 'Seattle - EEUU',
-        duration: 'from 2021 to 2022'
+        software: 'Software: Html, Css, JavaScript, Bootstrap, React, React Native, Node.js, Git Hub'
     },
     {
         id: 8,
         image: crehana,
+        institution: 'Crehana',
         certificate: 'Growth Marketing and Analytics',
-        software: 'Google Analytics',
-        location: 'Buenos Aires - Argentina',
-        duration: '2022'
+        software: 'Software: Google Analytics'
     },
     {
         id: 9,
         image: crehana,
+        institution: 'Crehana',
         certificate: 'Digital Product Managment',
-        software: 'Figma, Sketch, Invision',
-        location: 'Buenos Aires - Argentina',
-        duration: '2022'
+        software: 'Software: Figma, Sketch, Invision'
     },
     {
         id: 10,
         image: coderhouse,
+        institution: 'Coder House',
         certificate: 'Digital Product Marketing',
-        software: 'Goggle Ads',
-        location: 'Buenos Aires - Argentina',
-        duration: '2022'
+        software: 'Software: Goggle Ads, Facebook Ads, Instagram Ads, Linkedin Adds, Youtube Adds.'
     },
 ]

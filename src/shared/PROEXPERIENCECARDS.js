@@ -67,7 +67,7 @@ export const PROEXPERIENCECARDS = [
         id: 7,
         image: tib,
         company: 'Tib',
-        position: 'Digital Products Developr',
+        position: 'Digital Products Developer',
         location: 'Seattle - EUU',
         duration: 'from 2020 to 2022',
     }, 

@@ -63,7 +63,7 @@ export const GENERALEDUCATIONCARDS = [
     },
     {
         id: 6,
-        title: 'Certification Program',
+        title: 'Máster',
         certificate: 'Digital Transformation Máster',
         image: incae,
         duration: '2021',
